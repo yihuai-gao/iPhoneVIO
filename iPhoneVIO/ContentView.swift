@@ -2,44 +2,72 @@
 //  ContentView.swift
 //  iPhoneVIO
 //
-//  Created by David Gao on 5/5/24.
+//  Created by David Gao on 4/26/24.
 //
 
 import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @ObservedObject var viewController: ViewController = ViewController()
+    @State private var newHostIP: String = "192.168.123.18"
+    @State private var newHostPort: String = "5555"
+
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        ARViewContainer(viewController: self.viewController)
+            .edgesIgnoringSafeArea(.all).overlay(){
+                VStack{
+                    Text(viewController.displayString)
+                        .font(.system(size: 20).monospaced())
+                        .foregroundColor(.white)
+                        .padding(10)
+                        .background(Color.black.opacity(0.5))
+                        .cornerRadius(8)
+                    HStack{
+                        TextField("Host IP", text: $newHostIP)
+                        .textFieldStyle(.roundedBorder)
+                        .frame(width: 160)
+                        .padding()
+                        .background(Color.black.opacity(0.5))
+                        .cornerRadius(16)
+
+                        TextField("Host Port", text: $newHostPort)
+                        .textFieldStyle(.roundedBorder)
+                        .frame(width: 80)
+                        .padding()
+                        .background(Color.black.opacity(0.5))
+                        .cornerRadius(16)
+                    }
+                    
+                    Button{
+                        ARManager.shared.actionStream.send(.update(ip: newHostIP, port: Int(newHostPort)!))
+                        } label: {
+                            Image(systemName: "arrow.clockwise")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 30, height: 30)
+                                .padding()
+                                .background(.regularMaterial)
+                                .cornerRadius(16)
+                        }
+                }.padding()
+            }
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
+
+struct ARViewContainer: UIViewControllerRepresentable {
     
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-
-        // Create a cube model
-        let mesh = MeshResource.generateBox(size: 0.1, cornerRadius: 0.005)
-        let material = SimpleMaterial(color: .gray, roughness: 0.15, isMetallic: true)
-        let model = ModelEntity(mesh: mesh, materials: [material])
-        model.transform.translation.y = 0.05
-
-        // Create horizontal plane anchor for the content
-        let anchor = AnchorEntity(.plane(.horizontal, classification: .any, minimumBounds: SIMD2<Float>(0.2, 0.2)))
-        anchor.children.append(model)
-
-        // Add the horizontal plane anchor to the scene
-        arView.scene.anchors.append(anchor)
-
-        return arView
-        
+    @ObservedObject var viewController: ViewController
+    
+    func makeUIViewController(context: Context) -> ViewController {
+        return self.viewController
     }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
+
+    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
+    }
 }
+
 
 #Preview {
     ContentView()

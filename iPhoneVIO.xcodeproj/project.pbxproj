@@ -14,6 +14,13 @@
 		1F6E8FCB2BE89BAD00DD0DFA /* iPhoneVIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FCA2BE89BAD00DD0DFA /* iPhoneVIOTests.swift */; };
 		1F6E8FD52BE89BAD00DD0DFA /* iPhoneVIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FD42BE89BAD00DD0DFA /* iPhoneVIOUITests.swift */; };
 		1F6E8FD72BE89BAD00DD0DFA /* iPhoneVIOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FD62BE89BAD00DD0DFA /* iPhoneVIOUITestsLaunchTests.swift */; };
+		1F6E8FE72BE89BE400DD0DFA /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FE32BE89BE400DD0DFA /* ARAction.swift */; };
+		1F6E8FE82BE89BE400DD0DFA /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FE42BE89BE400DD0DFA /* SocketClient.swift */; };
+		1F6E8FE92BE89BE400DD0DFA /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FE52BE89BE400DD0DFA /* ARManager.swift */; };
+		1F6E8FEA2BE89BE400DD0DFA /* ARSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E8FE62BE89BE400DD0DFA /* ARSessionManager.swift */; };
+		C60F156BCCAB30F337E416B0 /* Pods_iPhoneVIOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBD9B0D87942E8D561A1779 /* Pods_iPhoneVIOTests.framework */; };
+		CD4B63BF511C1AEA5309CA7A /* Pods_iPhoneVIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E023A5510CA7D9CA21F72D86 /* Pods_iPhoneVIO.framework */; };
+		E02FDF37472DB0A2C1B8AAA4 /* Pods_iPhoneVIO_iPhoneVIOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648FEE11F75FCDFE352BFC75 /* Pods_iPhoneVIO_iPhoneVIOUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B55B870EF93DCA787507C9 /* Pods-iPhoneVIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIO.release.xcconfig"; path = "Target Support Files/Pods-iPhoneVIO/Pods-iPhoneVIO.release.xcconfig"; sourceTree = "<group>"; };
+		077A43EE8EA28E02DB4967D3 /* Pods-iPhoneVIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIO.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneVIO/Pods-iPhoneVIO.debug.xcconfig"; sourceTree = "<group>"; };
+		10A4BB74B67D385063550573 /* Pods-iPhoneVIOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIOTests.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneVIOTests/Pods-iPhoneVIOTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F6E8FB62BE89BAC00DD0DFA /* iPhoneVIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneVIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6E8FB92BE89BAC00DD0DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6E8FBB2BE89BAC00DD0DFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,16 @@
 		1F6E8FD02BE89BAD00DD0DFA /* iPhoneVIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneVIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6E8FD42BE89BAD00DD0DFA /* iPhoneVIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneVIOUITests.swift; sourceTree = "<group>"; };
 		1F6E8FD62BE89BAD00DD0DFA /* iPhoneVIOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneVIOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F6E8FE32BE89BE400DD0DFA /* ARAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		1F6E8FE42BE89BE400DD0DFA /* SocketClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
+		1F6E8FE52BE89BE400DD0DFA /* ARManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		1F6E8FE62BE89BE400DD0DFA /* ARSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSessionManager.swift; sourceTree = "<group>"; };
+		648FEE11F75FCDFE352BFC75 /* Pods_iPhoneVIO_iPhoneVIOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneVIO_iPhoneVIOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F26058A35793C601D624AF /* Pods-iPhoneVIOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIOTests.release.xcconfig"; path = "Target Support Files/Pods-iPhoneVIOTests/Pods-iPhoneVIOTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6579A51E02AD9F16DCD0913 /* Pods-iPhoneVIO-iPhoneVIOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIO-iPhoneVIOUITests.release.xcconfig"; path = "Target Support Files/Pods-iPhoneVIO-iPhoneVIOUITests/Pods-iPhoneVIO-iPhoneVIOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE3FBEE8296BDA811BF1F5D3 /* Pods-iPhoneVIO-iPhoneVIOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneVIO-iPhoneVIOUITests.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneVIO-iPhoneVIOUITests/Pods-iPhoneVIO-iPhoneVIOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E023A5510CA7D9CA21F72D86 /* Pods_iPhoneVIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneVIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBD9B0D87942E8D561A1779 /* Pods_iPhoneVIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneVIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4B63BF511C1AEA5309CA7A /* Pods_iPhoneVIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60F156BCCAB30F337E416B0 /* Pods_iPhoneVIOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02FDF37472DB0A2C1B8AAA4 /* Pods_iPhoneVIO_iPhoneVIOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,8 @@
 				1F6E8FC92BE89BAD00DD0DFA /* iPhoneVIOTests */,
 				1F6E8FD32BE89BAD00DD0DFA /* iPhoneVIOUITests */,
 				1F6E8FB72BE89BAC00DD0DFA /* Products */,
+				72CEBDE9B5731AC8B04BBD99 /* Pods */,
+				DE7C46DB7F3A8ECA910DC4D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +121,10 @@
 			children = (
 				1F6E8FB92BE89BAC00DD0DFA /* AppDelegate.swift */,
 				1F6E8FBB2BE89BAC00DD0DFA /* ContentView.swift */,
+				1F6E8FE32BE89BE400DD0DFA /* ARAction.swift */,
+				1F6E8FE52BE89BE400DD0DFA /* ARManager.swift */,
+				1F6E8FE62BE89BE400DD0DFA /* ARSessionManager.swift */,
+				1F6E8FE42BE89BE400DD0DFA /* SocketClient.swift */,
 				1F6E8FBD2BE89BAD00DD0DFA /* Assets.xcassets */,
 				1F6E8FBF2BE89BAD00DD0DFA /* Preview Content */,
 			);
@@ -127,6 +156,29 @@
 			path = iPhoneVIOUITests;
 			sourceTree = "<group>";
 		};
+		72CEBDE9B5731AC8B04BBD99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077A43EE8EA28E02DB4967D3 /* Pods-iPhoneVIO.debug.xcconfig */,
+				04B55B870EF93DCA787507C9 /* Pods-iPhoneVIO.release.xcconfig */,
+				BE3FBEE8296BDA811BF1F5D3 /* Pods-iPhoneVIO-iPhoneVIOUITests.debug.xcconfig */,
+				A6579A51E02AD9F16DCD0913 /* Pods-iPhoneVIO-iPhoneVIOUITests.release.xcconfig */,
+				10A4BB74B67D385063550573 /* Pods-iPhoneVIOTests.debug.xcconfig */,
+				A3F26058A35793C601D624AF /* Pods-iPhoneVIOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE7C46DB7F3A8ECA910DC4D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E023A5510CA7D9CA21F72D86 /* Pods_iPhoneVIO.framework */,
+				648FEE11F75FCDFE352BFC75 /* Pods_iPhoneVIO_iPhoneVIOUITests.framework */,
+				FCBD9B0D87942E8D561A1779 /* Pods_iPhoneVIOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6E8FDA2BE89BAD00DD0DFA /* Build configuration list for PBXNativeTarget "iPhoneVIO" */;
 			buildPhases = (
+				9DE8787ADC349230FAC1ECF6 /* [CP] Check Pods Manifest.lock */,
 				1F6E8FB22BE89BAC00DD0DFA /* Sources */,
 				1F6E8FB32BE89BAC00DD0DFA /* Frameworks */,
 				1F6E8FB42BE89BAC00DD0DFA /* Resources */,
+				BDE3280C9F1DB5A2269678EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6E8FDD2BE89BAD00DD0DFA /* Build configuration list for PBXNativeTarget "iPhoneVIOTests" */;
 			buildPhases = (
+				2A324B45A0AED97CAF9447FF /* [CP] Check Pods Manifest.lock */,
 				1F6E8FC22BE89BAD00DD0DFA /* Sources */,
 				1F6E8FC32BE89BAD00DD0DFA /* Frameworks */,
 				1F6E8FC42BE89BAD00DD0DFA /* Resources */,
@@ -169,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6E8FE02BE89BAD00DD0DFA /* Build configuration list for PBXNativeTarget "iPhoneVIOUITests" */;
 			buildPhases = (
+				33C5D6AE4B5BAC970A2F72CF /* [CP] Check Pods Manifest.lock */,
 				1F6E8FCC2BE89BAD00DD0DFA /* Sources */,
 				1F6E8FCD2BE89BAD00DD0DFA /* Frameworks */,
 				1F6E8FCE2BE89BAD00DD0DFA /* Resources */,
+				11BE57F1DB7092046C91E826 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +309,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11BE57F1DB7092046C91E826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO-iPhoneVIOUITests/Pods-iPhoneVIO-iPhoneVIOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO-iPhoneVIOUITests/Pods-iPhoneVIO-iPhoneVIOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO-iPhoneVIOUITests/Pods-iPhoneVIO-iPhoneVIOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A324B45A0AED97CAF9447FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneVIOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33C5D6AE4B5BAC970A2F72CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneVIO-iPhoneVIOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE8787ADC349230FAC1ECF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneVIO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE3280C9F1DB5A2269678EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO/Pods-iPhoneVIO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO/Pods-iPhoneVIO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPhoneVIO/Pods-iPhoneVIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F6E8FB22BE89BAC00DD0DFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F6E8FBC2BE89BAC00DD0DFA /* ContentView.swift in Sources */,
+				1F6E8FE82BE89BE400DD0DFA /* SocketClient.swift in Sources */,
 				1F6E8FBA2BE89BAC00DD0DFA /* AppDelegate.swift in Sources */,
+				1F6E8FE72BE89BE400DD0DFA /* ARAction.swift in Sources */,
+				1F6E8FE92BE89BE400DD0DFA /* ARManager.swift in Sources */,
+				1F6E8FEA2BE89BE400DD0DFA /* ARSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +559,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +580,7 @@
 		};
 		1F6E8FDB2BE89BAD00DD0DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077A43EE8EA28E02DB4967D3 /* Pods-iPhoneVIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +612,7 @@
 		};
 		1F6E8FDC2BE89BAD00DD0DFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B55B870EF93DCA787507C9 /* Pods-iPhoneVIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +644,7 @@
 		};
 		1F6E8FDE2BE89BAD00DD0DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A4BB74B67D385063550573 /* Pods-iPhoneVIOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +665,7 @@
 		};
 		1F6E8FDF2BE89BAD00DD0DFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F26058A35793C601D624AF /* Pods-iPhoneVIOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +686,7 @@
 		};
 		1F6E8FE12BE89BAD00DD0DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3FBEE8296BDA811BF1F5D3 /* Pods-iPhoneVIO-iPhoneVIOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +705,7 @@
 		};
 		1F6E8FE22BE89BAD00DD0DFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6579A51E02AD9F16DCD0913 /* Pods-iPhoneVIO-iPhoneVIOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

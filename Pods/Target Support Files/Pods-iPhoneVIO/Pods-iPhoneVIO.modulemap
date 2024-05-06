@@ -1,0 +1,6 @@
+framework module Pods_iPhoneVIO {
+  umbrella header "Pods-iPhoneVIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
